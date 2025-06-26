@@ -1,0 +1,7 @@
+spotipy
+pynput
+python-dotenv
+SpeechRecognition
+pyaudio
+traceback
+tkinter

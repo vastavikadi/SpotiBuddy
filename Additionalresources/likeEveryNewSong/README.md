@@ -1,0 +1,1 @@
+## This basically keeps liking and adding every new song that you haven't liked yet in the liked playlist.

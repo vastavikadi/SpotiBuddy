@@ -1,0 +1,1 @@
+## This basically works with the keyboard. You will need to press Ctrl+Alt+L to like the song playing and adds it to the "Liked Song" Playlist.

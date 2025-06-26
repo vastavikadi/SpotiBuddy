@@ -1,0 +1,25 @@
+# Environment variables
+.env
+.cache
+
+# Python environment
+.venv/
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyInstaller build files
+build/
+dist/
+*.spec
+*.exe
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
