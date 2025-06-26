@@ -1,48 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SpotiBuddy – Voice-Controlled Spotify Assistant</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #121212;
-      color: #fff;
-      text-align: center;
-      padding: 2rem;
-    }
-    h1 { color: #1DB954; font-size: 3rem; }
-    p, a { font-size: 1.1rem; color: #ccc; }
-    a.button {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      margin: 1rem auto;
-      background: #1DB954;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 25px;
-      font-weight: bold;
-    }
-    img.demo {
-      margin-top: 2rem;
-      max-width: 90%;
-      border: 2px solid #1DB954;
-      border-radius: 12px;
-    }
-  </style>
-</head>
-<body>
-  <h1>🎧 SpotiBuddy</h1>
-  <p>Hands-free Spotify Assistant for Windows.<br>Control your music with your voice.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpotiBuddy – Voice-Controlled Spotify Assistant</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: #121212;
+        color: #fff;
+        text-align: center;
+        padding: 2rem;
+      }
+      h1 {
+        color: #1db954;
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+      }
+      p,
+      a {
+        font-size: 1.1rem;
+        color: #ccc;
+      }
+      a.button {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        margin: 1rem auto;
+        background: #1db954;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 25px;
+        font-weight: bold;
+      }
+      img.demo {
+        margin-top: 2rem;
+        max-width: 90%;
+        border: 2px solid #1db954;
+        border-radius: 12px;
+      }
+      img.logo {
+        width: 48px;
+        height: 48px;
+        vertical-align: middle;
+      }
+      .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <img src="spotibuddy.png" alt="SpotiBuddy Logo" class="logo" />
+      SpotiBuddy
+    </h1>
 
-  <a class="button" href="https://github.com/<your-username>/SpotiBuddy/releases/latest" target="_blank">⬇ Download for Windows</a>
+    <p>
+      Hands-free Spotify Assistant for Windows.<br />Control your music with
+      your voice.
+    </p>
 
-  <img src="spotibuddy_demo.gif" alt="SpotiBuddy Demo" class="demo" />
-  <p><i>Say things like "play blinding lights", "like this song", or "add to playlist chill"</i></p>
+    <div class="hero">
+      <a
+        class="button"
+        href="https://github.com/vastavikadi/SpotiBuddy"
+        target="_blank"
+        >Check it Out & ⬇ Download for Windows</a
+      >
 
-  <footer style="margin-top: 3rem;">
-    <p>Made with ❤️ by <a href="https://www.linkedin.com/in/aditya-shukla-3134472b3/" target="_blank">Aditya Shukla</a></p>
-  </footer>
-</body>
+      <img src="spotibuddy_demo.gif" alt="SpotiBuddy Demo" class="demo" />
+    </div>
+    <p>
+      <i
+        >Say things like "play blinding lights", "like this song", or "add to
+        playlist chill"</i
+      >
+    </p>
+
+    <footer style="margin-top: 3rem">
+      <p>
+        Made with ❤️ by
+        <a
+          href="https://www.linkedin.com/in/vastavikadi"
+          target="_blank"
+          >Aditya Shukla</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
